@@ -46,6 +46,12 @@ img{
     padding: 5px 15px;
 }
 
+.debug .section-header{
+    min-height: 200px;
+    max-width: 500px;
+    background-color: palevioletred;
+}
+
 .debug .col.img{
     min-height: 200px;
     background-color: aquamarine;
@@ -54,6 +60,12 @@ img{
 .debug .col.text{
     min-height: 200px;
     background-color: pink;
+}
+
+.debug .section-main{
+    min-height: 400px;
+    max-width: 900px;
+    background-color: green;
 }
 
 .row{
@@ -74,11 +86,7 @@ img{
     flex-basis: calc((100% / 4) * 2);
 }
 
-.debug .section-header{
-    min-height: 200px;
-    max-width: 500px;
-    background-color: palevioletred;
-}
+
 
 .row > .col.img{
     flex-basis: 450px;
