@@ -103,3 +103,7 @@ img{
 .row-col-6 > .col-double{
     flex-basis: calc((100% / 6) * 2);
 }
+
+.row.between{
+    justify-content: space-between;
+}
