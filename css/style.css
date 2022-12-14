@@ -76,12 +76,12 @@ img{
     flex-direction: row-reverse;
 }
 
-/* Colonne Nav */
-.row-col-4 > .col25{
+/* Colonne Nav in Header */
+.row-col-4 > .col{
     flex-basis: calc(100% / 4);
 }
 
-/* Colonne Nav */
+/* Colonne Nav in Header */
 .row-col-4 > .col50{
     flex-basis: calc((100% / 4) * 2);
 }
