@@ -46,6 +46,10 @@ img{
     padding: 5px 15px;
 }
 
+.debug .row-col-4 > [class^="col"]{
+    background-color: orange;
+}
+
 .debug .section-header{
     min-height: 200px;
     max-width: 500px;
@@ -66,6 +70,24 @@ img{
     min-height: 400px;
     max-width: 900px;
     background-color: green;
+}
+
+ /* Altezza colonne Section in Footer */
+ .debug .row-col-6 > [class^="col"]{
+    min-height: 300px;
+    background-color: azure;
+}
+
+.debug .row-col-6 > .col-double{
+    background-color: papayawhip;
+}
+
+.debug .row.between{
+    background-color: cadetblue;
+}
+
+.debug .between > [class^="col"]{
+    background-color: peachpuff;
 }
 
 .row{
@@ -92,6 +114,10 @@ img{
 
 .row > .col.text{
     flex-grow: 1;
+}
+
+.row.between{
+    padding: 20px 0;
 }
 
 /* Larghezza colonne Section in Footer */
