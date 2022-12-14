@@ -76,17 +76,15 @@ img{
     flex-direction: row-reverse;
 }
 
-/* Colonne Nav in Header */
+/* Larghezza colonne Nav in Header */
 .row-col-4 > .col{
     flex-basis: calc(100% / 4);
 }
 
-/* Colonne Nav in Header */
+/* Larghezza colonne Nav in Header */
 .row-col-4 > .col50{
     flex-basis: calc((100% / 4) * 2);
 }
-
-
 
 .row > .col.img{
     flex-basis: 450px;
@@ -96,3 +94,12 @@ img{
     flex-grow: 1;
 }
 
+/* Larghezza colonne Section in Footer */
+.row-col-6 > .col{
+    flex-basis: calc(100% / 6);
+}
+
+/* Larghezza colonne Section in Footer */
+.row-col-6 > .col-double{
+    flex-basis: calc((100% / 6) * 2);
+}
