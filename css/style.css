@@ -60,6 +60,10 @@ img{
     display: flex;
 }
 
+.row.reverse{
+    flex-direction: row-reverse;
+}
+
 /* Colonne Nav */
 .row-col-4 > .col25{
     flex-basis: calc(100% / 4);
