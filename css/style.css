@@ -9,6 +9,29 @@ img{
 }
 
 .container{
-    max-width: 900;
+    max-width: 900px;
     margin: 0 auto;
+}
+
+.debug .container{
+    border: 3px dashed red;
+    padding: 20px;
+}
+
+.debug header{
+    min-height: 200px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.debug main{
+    min-height: 600px;
+    background-color: gray;
+    padding: 20px;
+}
+
+.debug footer{
+    min-height: 300px;
+    background-color: greenyellow;
+    padding: 20px;
 }
