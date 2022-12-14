@@ -50,10 +50,18 @@ img{
     display: flex;
 }
 
+/* Colonne Nav */
 .row-col-4 > .col25{
     flex-basis: calc(100% / 4);
 }
 
+/* Colonne Nav */
 .row-col-4 > .col50{
     flex-basis: calc((100% / 4) * 2);
+}
+
+.section-main{
+    min-height: 200px;
+    max-width: 500px;
+    background-color: palevioletred;
 }
