@@ -49,3 +49,11 @@ img{
 .row{
     display: flex;
 }
+
+.row-col-4 > .col25{
+    flex-basis: calc(100% / 4);
+}
+
+.row-col-4 > .col50{
+    flex-basis: calc((100% / 4) * 2);
+}
