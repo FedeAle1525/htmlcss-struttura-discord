@@ -46,6 +46,16 @@ img{
     padding: 5px 15px;
 }
 
+.debug .col.img{
+    min-height: 200px;
+    background-color: aquamarine;
+}
+
+.debug .col.text{
+    min-height: 200px;
+    background-color: pink;
+}
+
 .row{
     display: flex;
 }
@@ -60,8 +70,17 @@ img{
     flex-basis: calc((100% / 4) * 2);
 }
 
-.section-main{
+.debug .section-main{
     min-height: 200px;
     max-width: 500px;
     background-color: palevioletred;
 }
+
+.row > .col.img{
+    flex-basis: 450px;
+}
+
+.row > .col.text{
+    flex-grow: 1;
+}
+
