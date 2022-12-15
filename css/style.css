@@ -13,27 +13,55 @@ img{
     margin: 0 auto;
 }
 
-.debug header{
+.container-section{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+/* DEBUG */
+
+.debug .main-header{
     min-height: 200px;
     background-color: aqua;
     padding: 20px;
 }
 
-.debug main{
+.debug .main-content{
     min-height: 600px;
     background-color: gray;
     padding: 20px;
 }
 
-.debug footer{
+.debug .page-footer{
     min-height: 300px;
     background-color: greenyellow;
     padding: 20px;
 }
 
-.debug .container{
+.debug .container, .container-section{
     border: 3px dashed red;
     padding: 20px;
+}
+
+.debug .container-section{
+    min-height: 500px;
+}
+
+.debug .section{
+    padding: 20px;
+}
+
+.debug .section.white{
+    background-color: white;
+    padding: 20px 0;
+}
+
+.debug .section.blue{
+    background-color: blue;
 }
 
 .debug .row{
@@ -50,11 +78,11 @@ img{
     background-color: orange;
 }
 
-.debug .section-header{
+/* .debug .section-header{
     min-height: 200px;
     max-width: 500px;
     background-color: palevioletred;
-}
+} */
 
 .debug .col.img{
     min-height: 200px;
@@ -90,33 +118,44 @@ img{
     background-color: peachpuff;
 }
 
-.row{
-    display: flex;
-}
+/* HEADER */
 
-.row.reverse{
-    flex-direction: row-reverse;
-}
+/* .main-header .row{
+     justify-content: space-between;
+} */
 
+/* Non è ottimale usare la larghezza fissa perchè il menù potrebbe variare larghezza in futuro */
 /* Larghezza colonne Nav in Header */
 .row-col-4 > .col{
     flex-basis: calc(100% / 4);
 }
 
-/* Larghezza colonne Nav in Header */
+/* Larghezza colonne Nav in Header  */
 .row-col-4 > .col50{
-    flex-basis: calc((100% / 4) * 2);
+    flex-grow: 1;
+} 
+
+
+/* MAIN */
+
+.row.reverse{
+    flex-direction: row-reverse;
 }
 
 .row > .col.img{
+    /* Si poteva usare usare 60% */
     flex-basis: 450px;
 }
 
 .row > .col.text{
+    /* Si poteva usare 40% */
     flex-grow: 1;
 }
 
+/* FOOTER */
+
 .row.between{
+    justify-content: space-between;
     padding: 20px 0;
 }
 
@@ -128,8 +167,4 @@ img{
 /* Larghezza colonne Section in Footer */
 .row-col-6 > .col-double{
     flex-basis: calc((100% / 6) * 2);
-}
-
-.row.between{
-    justify-content: space-between;
 }

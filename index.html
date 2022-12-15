@@ -9,32 +9,31 @@
 </head>
 <body class="debug">
 
-    <header>
+    <header class="main-header">
         <!-- Struttura nav a 3 colonne con larghezza definita -->
-        <nav>
-            <div class="container">
-                <div class="row row-col-4">
-                    <div class="col">logo</div>
-                    <div class="col50">link link link link link</div>
-                    <div class="col">login</div>
-                </div>
+        
+        <div class="container">
+            <div class="row row-col-4">
+                <div class="col">logo</div>
+                <!-- Menù: lista con 5 elementi -->
+                <nav class="col50">link link link link link</nav>
+                <div class="col">login</div>
             </div>
-        </nav>
-
-        <!-- Sezione con container -->
-        <section>
-            <div class="container">
-                <div class="section-header">
- 
-                </div>
-            </div>
-        </section>
+        </div>
 
     </header>
 
-    <main>
-        <!-- Sezione 1 del Main: Immagine + Testo -->
-        <section>
+    <main class="main-content">
+
+        <!-- Sezione con container -->
+        <section class="hero section blue">
+            <div class="container-section">
+
+            </div>
+        </section>
+
+        <!-- Sezione 2 del Main: Immagine + Testo -->
+        <section class="section white">
             <div class="container">
                 <div class="row">
                     <div class="col img">Immagine</div>
@@ -43,8 +42,8 @@
             </div>
         </section>
 
-        <!-- Sezione 2 del Main: Testo + Immagine -->
-        <section>
+        <!-- Sezione 3 del Main: Testo + Immagine -->
+        <section class="section">
             <div class="container">
                 <div class="row reverse">
                     <div class="col img">Immagine</div>
@@ -53,8 +52,8 @@
             </div>
         </section>
 
-        <!-- Sezione 3 del Main: Immagine + Testo -->
-        <section>
+        <!-- Sezione 4 del Main: Immagine + Testo -->
+        <section class="section white">
             <div class="container">
                 <div class="row">
                     <div class="col img">Immagine</div>
@@ -63,21 +62,21 @@
             </div>
         </section>
 
-        <!-- Sezione 4 del Main -->
-        <section>
+        <!-- Sezione 5 del Main -->
+        <section class="section">
             <div class="container">
                 <div class="section-main">
-
+                    <!-- Si può fare con una riga da una colonna che prende tutto lo spazio -->
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer>
+    <footer class="page-footer">
 
         <!-- Sezione 1 del Footer con 5 colonne -->
-        <section>
+        <section class="section">
             <div class="container">
                 <div class="row row-col-6">
                     <div class="col-double">col 1</div>
@@ -90,7 +89,7 @@
         </section>
 
         <!-- Sezione 2 del Footer con Logo + Bottone -->
-        <section>
+        <section class="section">
             <div class="container">
                 <div class="row between">
                     <div class="col">Logo</div>
