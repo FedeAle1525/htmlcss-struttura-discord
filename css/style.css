@@ -94,14 +94,15 @@ img{
     background-color: pink;
 }
 
-.debug .section-main{
+.debug .row100 > .col{
     min-height: 400px;
     max-width: 900px;
     background-color: green;
 }
 
- /* Altezza colonne Section in Footer */
- .debug .row-col-6 > [class^="col"]{
+
+/* Altezza colonne Section in Footer */
+.debug .row-col-6 > [class^="col"]{
     min-height: 300px;
     background-color: azure;
 }
@@ -150,6 +151,10 @@ img{
 .row > .col.text{
     /* Si poteva usare 40% */
     flex-grow: 1;
+}
+
+.row.row100 > .col{
+    flex-basis: 100%;
 }
 
 /* FOOTER */
